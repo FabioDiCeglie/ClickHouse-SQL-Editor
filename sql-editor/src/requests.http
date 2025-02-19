@@ -1,0 +1,32 @@
+### Health Check
+
+GET http://localhost:8080/api/health
+Content-Type: application/json
+
+
+### Get simple select
+
+POST http://localhost:8080/query
+Content-Type: application/json
+
+{
+    "query": "SELECT 1"
+}
+
+### Get all tables
+
+POST http://localhost:8080/query
+Content-Type: application/json
+
+{
+    "query": "SELECT * from system.tables;"
+}
+
+### Get data from example_data_csv table
+
+POST http://localhost:8080/query
+Content-Type: application/json
+
+{
+    "query": "SELECT * FROM example_data_csv"
+}
