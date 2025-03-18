@@ -1,5 +1,3 @@
-# ClickHouse assignment
-
 ## Preview
 
 <video width="100%" controls>
