@@ -1,18 +1,33 @@
+## Prerequisites
+
+- Docker and Docker Compose
+- Node.js 20 or higher
+- TypeScript
+
 ## Setup
 
-- Requires docker and docker compose
-- Requires Node 20+
-- Requires TypeScript
-
+1. Start the Docker containers:
 `docker compose up -d`
+
+2. Install the dependencies:
 `npm i`
 
-## Start the application
+## Development
+
+Start the application in development mode:
 
 `npm run start`
 
-## Run the tests
+## Testing
+
+Run tests in watch mode:
 
 `npm run test:watch`
 
-## Use the requests.http to see how you can use the api
+## API Documentation
+
+You can find example API requests in the `requests.http` file. This file can be used directly with REST Client extensions in VS Code or similar IDEs.
+
+## Environment Variables
+
+Create a `.env` file in the root directory (see `.env.example` for reference).
